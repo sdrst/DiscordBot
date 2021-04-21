@@ -1,12 +1,15 @@
 from bs4 import BeautifulSoup
 import requests
-from selenium import webdriver
 import time
+import math
+from selenium import webdriver
+
 from selenium.webdriver.firefox.options import Options
 
 def main():
     s = Scraper()
-    #print(s.initialize())
+    #s.initialize()
+    s.createCountersDict()
 
 class Scraper:
     def __init__(self):
@@ -21,28 +24,36 @@ class Scraper:
     def initialize(self):
         self.driver.get(self.home_url)
         results = self.driver.find_elements_by_xpath("//*[@class='champions-container']")
-
-        self.champions = results[0].text.split()
+        #print(results[0].text.split('\n'))
+        self.champions = results[0].text.split('\n')
         #return self.champions
 
         #self.driver.quit()
 
     def counters(self, champ):
-        url = self.home_url + f'{champ}/counters'
+        if champ == "Nunu & Willump":
+            url = self.home_url + "/nunu/counter"
+        else:
+            url = self.home_url + f'/{champ.lower().replace(" ", "")}/counter'
+        print(url)
 
-        champ_counters = []
+        #champ_counters = []
         self.driver.get(url)
         #driver.execute_script("window.scrollTo(0, document.body.scrollHeight);var lenOfPage=document.body.scrollHeight;return lenOfPage;")
 
         #time.sleep(5)
 
         results = self.driver.find_elements_by_xpath("//*[@class='counters-list best-win-rate']")
-        champ_counters.append(results[0].text)
+        #print(results[0].text)
+        if results == None:
+            return
+        champ_counters = list(results[0].text)
         return champ_counters
 
 
     def createCountersDict(self):
         self.initialize()
+        print(len(self.champions))
         print("stage 1 complete")
         count = 0
 
@@ -51,7 +62,7 @@ class Scraper:
             self.counter_dict[champ] = counters
 
             count+=1
-            print("{}%".format(count//len(self.champions)))
+            print("{}%".format(math.floor(count/len(self.champions))))
             time.sleep(1)
 
 
