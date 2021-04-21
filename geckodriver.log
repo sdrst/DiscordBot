@@ -4880,3 +4880,113 @@ Gtk-Message: 17:03:22.160: Failed to load module "appmenu-gtk-module"
 Gtk-Message: 17:03:33.188: Failed to load module "appmenu-gtk-module"
 1619039014816	Marionette	INFO	Listening on port 41041
 1619039014884	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 817 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 817 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://s.yimg.com/rq/iv/inside.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://s.yimg.com/rq/iv/inside.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://s.yimg.com/rq/iv/inside.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://s.yimg.com/rq/iv/inside.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://s.yimg.com/ix/talon-1.0.31.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://s.yimg.com/ix/talon-1.0.31.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://s.yimg.com/ix/talon-1.0.31.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://s.yimg.com/ix/talon-1.0.31.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61BAE_6BADC5, line 265: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61BAE_6BADC5, line 265: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61BAE_6BADC5, line 265: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61BAE_6BADC5, line 265: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7585 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7585 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619039620367	geckodriver	INFO	Listening on 127.0.0.1:54923
+1619039620369	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLWmYkd"
+*** You are running in headless mode.
+Gtk-Message: 17:13:40.383: Failed to load module "appmenu-gtk-module"
+1619039622006	Marionette	INFO	Listening on port 46779
+1619039622077	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619039622113	geckodriver	INFO	Listening on 127.0.0.1:50543
+1619039622115	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerxArwE"
+*** You are running in headless mode.
+Gtk-Message: 17:13:42.134: Failed to load module "appmenu-gtk-module"
+1619039623797	Marionette	INFO	Listening on port 36061
+1619039623821	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61CD7_6BCD06, line 265: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61CD7_6BCD06, line 265: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61CD7_6BCD06, line 265: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61CD7_6BCD06, line 265: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4853 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4853 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61E02_6BEE40, line 265: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61E02_6BEE40, line 265: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61E02_6BEE40, line 265: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61E02_6BEE40, line 265: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3618 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3618 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61F2F_6C0EF6, line 265: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61F2F_6C0EF6, line 265: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61F2F_6C0EF6, line 265: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61F2F_6C0EF6, line 265: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 2014 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 2014 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4271 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4271 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61F2F_6C0EF6, line 265: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61F2F_6C0EF6, line 265: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61F2F_6C0EF6, line 265: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61F2F_6C0EF6, line 265: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 2555 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 2555 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5051 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5051 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61F2F_6C0EF6, line 265: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61F2F_6C0EF6, line 265: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61F2F_6C0EF6, line 265: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61F2F_6C0EF6, line 265: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3320 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3320 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5886 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5886 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61F2F_6C0EF6, line 265: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61F2F_6C0EF6, line 265: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61F2F_6C0EF6, line 265: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/maxpointimpression857454451729/moatad.js#moatClientLevel1=Maxpoint&moatClientLevel2=254895&moatClientLevel3=728x90&zMoatIMP=D33645_DBE61F2F_6C0EF6, line 265: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7250 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7250 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 819 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 819 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

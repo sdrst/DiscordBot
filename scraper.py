@@ -80,7 +80,9 @@ class Scraper:
 
         self.driver.quit()
         dictfile = open('dictfile', 'w')
-        pickle.dump(self.counter_dict, dictfile)
+        json1 = json.dumps(dict1)
+        dictfile.write(json1)
+        dictfile.close()
 
     def getCounters(self, champ):
         champ = champ.lower()
