@@ -15,7 +15,7 @@ def main():
     #print(s.getCounters('ezreal'))
     #s.runes('ezreal')
     #s.populateRunes()
-    s.getRunes("ezreal")
+    print(s.getRunes("ezreal"))
 
 class Scraper:
     def __init__(self):
@@ -77,6 +77,7 @@ class Scraper:
         i = 0
         while i < 5:
             rune = self.cleanRunes(runes_obj[i], "Rune ")
+            rune = rune.replace(":", "")
             runes.append(rune)
             i+=1
 
@@ -94,7 +95,7 @@ class Scraper:
     def populateCounters(self):
         self.initialize()
 
-        print("stage 1 complete")
+        print("Counters populating")
         count = 0
 
         for champ in self.champions:
@@ -113,13 +114,14 @@ class Scraper:
 
         self.driver.quit()
         counterfile = open('counterfile', 'w')
-        json1 = json.dumps(dict1)
+        json1 = json.dumps(self.counter_dict)
         counterfile.write(json1)
         counterfile.close()
 
     def populateRunes(self):
         self.initialize()
         count = 0
+        print("Runes populating")
 
         for champ in self.champions:
             try:
@@ -131,11 +133,12 @@ class Scraper:
                 continue
             count+=1
             print("{}%".format(math.floor((count/len(self.champions)*100))))
+        print("Runes populated")
 
 
         self.driver.quit()
         runefile = open('runefile', 'w')
-        json1 = json.dumps(dict1)
+        json1 = json.dumps(self.runes_dict)
         runefile.write(json1)
         runefile.close()
 
@@ -163,10 +166,10 @@ class Scraper:
     def test(self):
         dict1 = {}
 
-        counterfile = open('counterfile', 'w')
+        runefile = open('runefile', 'w')
         json1 = json.dumps(dict1)
-        counterfile.write(json1)
-        counterfile.close()
+        runefile.write(json1)
+        runefile.close()
 
     def cleanRunes(self, html_object, split):
         rune = html_object.get_attribute("innerHTML")
