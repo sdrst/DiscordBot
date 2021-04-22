@@ -1,9 +1,9 @@
 import os
-from dotenv import load_dotenv
 import discord
 from discord.ext import commands
-from scraper import counters
+from scraper import Scraper
 from datetime import datetime
+from dotenv import load_dotenv
 
 
 load_dotenv()
@@ -16,6 +16,8 @@ intents.members = True
 #client = discord.Client(intents=intents)
 
 bot = commands.Bot(command_prefix='!', intents=intents)
+
+scraper = Scraper()
 
 
 #print(client.user)
@@ -48,11 +50,21 @@ async def on_member_join(member):
     await member.dm_channel.send("Welcome to the fuck zone {}".format(member))
     #await channel.send("Welcome to the fuck zone {}".format(member))
 
-@bot.command(name='erniebot')
-async def league(ctx, name):
+@bot.command(name='counters')
+async def counters(ctx, name):
     start_time = datetime.now()
-    await ctx.send("The list of counters for {} is:\n{}".format(name, counters(name)))
-    await ctx.send("This query took {}".format(datetime.now()-start_time))
+    await ctx.send("The list of counters for {} is:\n{}".format(name, scraper.getCounters(name)))
+    #await ctx.send("This query took {}".format(datetime.now()-start_time))
+
+@bot.command(name='runes')
+async def runes(ctx, name):
+    await ctx.send("The list of runes for {} is:\n{}".format(name, scraper.getRunes(name)))
+
+@bot.command(name='populate')
+@commands.is_owner()
+async def populate(ctx):
+    scraper.populate()
+    await ctx.send("Success!")
 
 @bot.command(name='shutdown')
 @commands.is_owner()
