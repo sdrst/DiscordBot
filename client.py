@@ -47,18 +47,21 @@ async def on_member_join(member):
     #channel = discord.utils.get(member.guild.text_channels, name="welcome")
     print(f'Hi {member}')
     await member.create_dm()
-    await member.dm_channel.send("Welcome to the fuck zone {}".format(member))
+    await member.dm_channel.send("Welcome to the zone {}".format(member))
     #await channel.send("Welcome to the fuck zone {}".format(member))
 
 @bot.command(name='counters')
 async def counters(ctx, name):
-    start_time = datetime.now()
     await ctx.send("The list of counters for {} is:\n{}".format(name, scraper.getCounters(name)))
-    #await ctx.send("This query took {}".format(datetime.now()-start_time))
+
 
 @bot.command(name='runes')
 async def runes(ctx, name):
     await ctx.send("The list of runes for {} is:\n{}".format(name, scraper.getRunes(name)))
+
+@bot.command(name='build')
+async def builds(ctx, name):
+    await ctx.send("The build for {} is:\n{}")
 
 @bot.command(name='populate')
 @commands.is_owner()
@@ -69,6 +72,7 @@ async def populate(ctx):
 @bot.command(name='shutdown')
 @commands.is_owner()
 async def shutdown(ctx):
+    await ctx.send("Goodbye")
     exit(0)
 
 bot.run(token)

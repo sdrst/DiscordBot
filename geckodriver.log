@@ -6185,3 +6185,52 @@ JavaScript warning: https://s.yimg.com/ix/talon-1.0.31.js, line 1: Failed to cre
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
 JavaScript error: , line 0: uncaught exception: undefined
 JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+1619131479655	Marionette	INFO	Stopped listening on port 44075
+1619131479839	Marionette	INFO	Stopped listening on port 35911
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3900DB,name=PContent::Msg_GraphicsError) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1619141792818	geckodriver	INFO	Listening on 127.0.0.1:57273
+1619141793828	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCIYdod"
+*** You are running in headless mode.
+Gtk-Message: 21:36:34.123: Failed to load module "appmenu-gtk-module"
+1619141799850	Marionette	INFO	Listening on port 43991
+1619141799891	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619141855583	geckodriver	INFO	Listening on 127.0.0.1:34643
+1619141855585	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5LfETW"
+*** You are running in headless mode.
+Gtk-Message: 21:37:35.597: Failed to load module "appmenu-gtk-module"
+1619141859984	Marionette	INFO	Listening on port 42959
+1619141860077	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619141860138	geckodriver	INFO	Listening on 127.0.0.1:36833
+1619141860140	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileb4Tfwy"
+*** You are running in headless mode.
+Gtk-Message: 21:37:40.160: Failed to load module "appmenu-gtk-module"
+1619141865049	Marionette	INFO	Listening on port 37813
+1619141865081	Marionette	WARN	TLS certificate errors will be ignored for this session
