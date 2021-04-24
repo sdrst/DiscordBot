@@ -6185,3 +6185,419 @@ JavaScript warning: https://s.yimg.com/ix/talon-1.0.31.js, line 1: Failed to cre
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
 JavaScript error: , line 0: uncaught exception: undefined
 JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+1619131479655	Marionette	INFO	Stopped listening on port 44075
+1619131479839	Marionette	INFO	Stopped listening on port 35911
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3900DB,name=PContent::Msg_GraphicsError) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1619141792818	geckodriver	INFO	Listening on 127.0.0.1:57273
+1619141793828	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCIYdod"
+*** You are running in headless mode.
+Gtk-Message: 21:36:34.123: Failed to load module "appmenu-gtk-module"
+1619141799850	Marionette	INFO	Listening on port 43991
+1619141799891	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619141855583	geckodriver	INFO	Listening on 127.0.0.1:34643
+1619141855585	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5LfETW"
+*** You are running in headless mode.
+Gtk-Message: 21:37:35.597: Failed to load module "appmenu-gtk-module"
+1619141859984	Marionette	INFO	Listening on port 42959
+1619141860077	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619141860138	geckodriver	INFO	Listening on 127.0.0.1:36833
+1619141860140	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileb4Tfwy"
+*** You are running in headless mode.
+Gtk-Message: 21:37:40.160: Failed to load module "appmenu-gtk-module"
+1619141865049	Marionette	INFO	Listening on port 37813
+1619141865081	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619142706353	geckodriver	INFO	Listening on 127.0.0.1:47095
+1619142706355	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerK97a1"
+*** You are running in headless mode.
+Gtk-Message: 21:51:46.369: Failed to load module "appmenu-gtk-module"
+1619142710384	Marionette	INFO	Listening on port 33985
+1619142710477	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619142779686	geckodriver	INFO	Listening on 127.0.0.1:58219
+1619142780689	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCwWH6u"
+*** You are running in headless mode.
+Gtk-Message: 21:53:00.702: Failed to load module "appmenu-gtk-module"
+1619142787142	Marionette	INFO	Listening on port 33939
+1619142787147	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619142873933	geckodriver	INFO	Listening on 127.0.0.1:46269
+1619142873936	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekdHhxt"
+*** You are running in headless mode.
+Gtk-Message: 21:54:33.949: Failed to load module "appmenu-gtk-module"
+1619142880348	Marionette	INFO	Listening on port 41593
+1619142880426	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619142896606	geckodriver	INFO	Listening on 127.0.0.1:40507
+1619142896608	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0ricMi"
+*** You are running in headless mode.
+Gtk-Message: 21:54:56.621: Failed to load module "appmenu-gtk-module"
+1619142902712	Marionette	INFO	Listening on port 35857
+1619142902722	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619143438750	geckodriver	INFO	Listening on 127.0.0.1:34235
+1619143438752	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileic3QlT"
+*** You are running in headless mode.
+Gtk-Message: 22:03:58.772: Failed to load module "appmenu-gtk-module"
+1619143446120	Marionette	INFO	Listening on port 36653
+1619143446171	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619143472612	geckodriver	INFO	Listening on 127.0.0.1:58989
+1619143472615	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOoPCpF"
+*** You are running in headless mode.
+Gtk-Message: 22:04:33.009: Failed to load module "appmenu-gtk-module"
+1619143486300	Marionette	INFO	Listening on port 36963
+1619143486336	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619143631379	geckodriver	INFO	Listening on 127.0.0.1:43989
+1619143631382	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGLz8qm"
+*** You are running in headless mode.
+Gtk-Message: 22:07:11.708: Failed to load module "appmenu-gtk-module"
+1619143633591	Marionette	INFO	Listening on port 46849
+1619143633632	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619143771433	geckodriver	INFO	Listening on 127.0.0.1:41637
+1619143771436	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUj01pd"
+*** You are running in headless mode.
+Gtk-Message: 22:09:31.462: Failed to load module "appmenu-gtk-module"
+1619143773299	Marionette	INFO	Listening on port 41181
+1619143773349	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619143875284	geckodriver	INFO	Listening on 127.0.0.1:51315
+1619143875288	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDtlQMH"
+*** You are running in headless mode.
+Gtk-Message: 22:11:15.302: Failed to load module "appmenu-gtk-module"
+1619143877149	Marionette	INFO	Listening on port 40485
+1619143877239	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619144208671	geckodriver	INFO	Listening on 127.0.0.1:39035
+1619144208673	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegb400R"
+*** You are running in headless mode.
+Gtk-Message: 22:16:48.688: Failed to load module "appmenu-gtk-module"
+1619144210481	Marionette	INFO	Listening on port 33553
+1619144210490	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619144219742	geckodriver	INFO	Listening on 127.0.0.1:60569
+1619144219745	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqMIdk4"
+*** You are running in headless mode.
+Gtk-Message: 22:16:59.770: Failed to load module "appmenu-gtk-module"
+1619144221576	Marionette	INFO	Listening on port 42979
+1619144221686	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619144322204	geckodriver	INFO	Listening on 127.0.0.1:46197
+1619144322208	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSsQbd7"
+*** You are running in headless mode.
+Gtk-Message: 22:18:42.224: Failed to load module "appmenu-gtk-module"
+1619144324310	Marionette	INFO	Listening on port 38045
+1619144324326	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619144330273	geckodriver	INFO	Listening on 127.0.0.1:39771
+1619144330276	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekadX5r"
+*** You are running in headless mode.
+Gtk-Message: 22:18:50.290: Failed to load module "appmenu-gtk-module"
+1619144332098	Marionette	INFO	Listening on port 36057
+1619144332223	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619144461861	geckodriver	INFO	Listening on 127.0.0.1:38075
+1619144461865	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIdP0R2"
+*** You are running in headless mode.
+Gtk-Message: 22:21:01.887: Failed to load module "appmenu-gtk-module"
+1619144463731	Marionette	INFO	Listening on port 37403
+1619144463815	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619144871733	geckodriver	INFO	Listening on 127.0.0.1:38439
+1619144872738	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehPmZN4"
+*** You are running in headless mode.
+Gtk-Message: 22:27:52.751: Failed to load module "appmenu-gtk-module"
+1619144874584	Marionette	INFO	Listening on port 39017
+1619144874654	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://blitz.gg/static/js/vendor~4134d62c.c37a64b1.chunk.js, line 1: Error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4119 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4119 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3191 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3191 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 1641 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 1641 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 510 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 510 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619144896555	geckodriver	INFO	Listening on 127.0.0.1:51275
+1619144896558	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemTIA4C"
+*** You are running in headless mode.
+Gtk-Message: 22:28:16.573: Failed to load module "appmenu-gtk-module"
+1619144898527	Marionette	INFO	Listening on port 37201
+1619144898574	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://blitz.gg/static/js/vendor~4134d62c.c37a64b1.chunk.js, line 1: Error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 1309 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 1309 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7822 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7822 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3260 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3260 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7116 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7116 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619144916339	geckodriver	INFO	Listening on 127.0.0.1:39863
+1619144916342	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7mp6fh"
+*** You are running in headless mode.
+Gtk-Message: 22:28:36.362: Failed to load module "appmenu-gtk-module"
+1619144918316	Marionette	INFO	Listening on port 41723
+1619144918395	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://blitz.gg/static/js/vendor~4134d62c.c37a64b1.chunk.js, line 1: Error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 1723 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 1723 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5642 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5642 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3149 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3149 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7643 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7643 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619145064380	geckodriver	INFO	Listening on 127.0.0.1:49737
+1619145064384	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevN0fOh"
+*** You are running in headless mode.
+Gtk-Message: 22:31:04.411: Failed to load module "appmenu-gtk-module"
+1619145066346	Marionette	INFO	Listening on port 45783
+1619145066424	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://blitz.gg/static/js/vendor~4134d62c.c37a64b1.chunk.js, line 1: Error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4328 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4328 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5551 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5551 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 818 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 818 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3304 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3304 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619145107207	geckodriver	INFO	Listening on 127.0.0.1:43613
+1619145107212	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3Cvi9T"
+*** You are running in headless mode.
+Gtk-Message: 22:31:47.248: Failed to load module "appmenu-gtk-module"
+1619145109068	Marionette	INFO	Listening on port 38795
+1619145109128	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://blitz.gg/static/js/vendor~4134d62c.c37a64b1.chunk.js, line 1: Error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 6147 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 6147 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 1253 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 1253 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 246 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 246 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 871 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 871 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5230 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5230 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619145159412	geckodriver	INFO	Listening on 127.0.0.1:41547
+1619145159420	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLsoVok"
+*** You are running in headless mode.
+Gtk-Message: 22:32:39.438: Failed to load module "appmenu-gtk-module"
+1619145161384	Marionette	INFO	Listening on port 40311
+1619145161448	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://blitz.gg/static/js/vendor~4134d62c.c37a64b1.chunk.js, line 1: Error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 1244 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 1244 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5125 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5125 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7107 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7107 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 436 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 436 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619145172031	geckodriver	INFO	Listening on 127.0.0.1:49195
+1619145172034	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehiY8MF"
+*** You are running in headless mode.
+Gtk-Message: 22:32:52.060: Failed to load module "appmenu-gtk-module"
+1619145174268	Marionette	INFO	Listening on port 46463
+1619145174354	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://blitz.gg/static/js/vendor~4134d62c.c37a64b1.chunk.js, line 1: Error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5966 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5966 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 672 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 672 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 6998 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 6998 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7145 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7145 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619145209067	geckodriver	INFO	Listening on 127.0.0.1:35943
+1619145209071	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQyjBP0"
+*** You are running in headless mode.
+Gtk-Message: 22:33:29.089: Failed to load module "appmenu-gtk-module"
+1619145211333	Marionette	INFO	Listening on port 44813
+1619145211388	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://blitz.gg/static/js/vendor~4134d62c.c37a64b1.chunk.js, line 1: Error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 1566 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 1566 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 6746 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 6746 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619145290127	geckodriver	INFO	Listening on 127.0.0.1:49115
+1619145290130	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuIDmA1"
+*** You are running in headless mode.
+Gtk-Message: 22:34:50.184: Failed to load module "appmenu-gtk-module"
+1619145292482	Marionette	INFO	Listening on port 32969
+1619145292543	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://blitz.gg/static/js/vendor~4134d62c.c37a64b1.chunk.js, line 1: Error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5322 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5322 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 6832 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 6832 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4001 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4001 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 891 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 891 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619145323605	geckodriver	INFO	Listening on 127.0.0.1:53499
+1619145324608	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileX5TH2N"
+*** You are running in headless mode.
+Gtk-Message: 22:35:24.690: Failed to load module "appmenu-gtk-module"
+1619145327614	Marionette	INFO	Listening on port 42669
+1619145327644	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://blitz.gg/static/js/vendor~4134d62c.c37a64b1.chunk.js, line 1: Error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5407 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5407 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 845 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 845 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3317 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3317 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 6091 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 6091 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619145412873	geckodriver	INFO	Listening on 127.0.0.1:43443
+1619145413876	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerTeDZq"
+*** You are running in headless mode.
+Gtk-Message: 22:36:53.918: Failed to load module "appmenu-gtk-module"
+1619145416934	Marionette	INFO	Listening on port 37933
+1619145416998	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://blitz.gg/static/js/vendor~4134d62c.c37a64b1.chunk.js, line 1: Error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7066 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7066 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 1341 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 1341 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4427 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4427 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5845 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5845 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619145615103	geckodriver	INFO	Listening on 127.0.0.1:41309
+1619145616104	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileN64B0F"
+*** You are running in headless mode.
+Gtk-Message: 22:40:16.277: Failed to load module "appmenu-gtk-module"
+1619145620011	Marionette	INFO	Listening on port 35791
+1619145620042	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619145630195	geckodriver	INFO	Listening on 127.0.0.1:42895
+1619145631200	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile73J9b4"
+*** You are running in headless mode.
+Gtk-Message: 22:40:31.230: Failed to load module "appmenu-gtk-module"
+1619145634362	Marionette	INFO	Listening on port 45615
+1619145634434	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619145731757	geckodriver	INFO	Listening on 127.0.0.1:60007
+1619145732756	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexsIhbc"
+*** You are running in headless mode.
+Gtk-Message: 22:42:12.876: Failed to load module "appmenu-gtk-module"
+1619145736317	Marionette	INFO	Listening on port 34515
+1619145736387	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619145765110	geckodriver	INFO	Listening on 127.0.0.1:55271
+1619145766105	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7YmRXw"
+*** You are running in headless mode.
+Gtk-Message: 22:42:46.191: Failed to load module "appmenu-gtk-module"
+1619145769755	Marionette	INFO	Listening on port 34401
+1619145769845	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619145810332	geckodriver	INFO	Listening on 127.0.0.1:46355
+1619145811338	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOfNVJA"
+*** You are running in headless mode.
+Gtk-Message: 22:43:31.443: Failed to load module "appmenu-gtk-module"
+1619145814908	Marionette	INFO	Listening on port 40703
+1619145814959	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619146162140	geckodriver	INFO	Listening on 127.0.0.1:41097
+1619146163136	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek1mTp6"
+*** You are running in headless mode.
+Gtk-Message: 22:49:23.313: Failed to load module "appmenu-gtk-module"
+1619146167022	Marionette	INFO	Listening on port 39235
+1619146167074	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619146183114	geckodriver	INFO	Listening on 127.0.0.1:34227
+1619146184110	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZ2MIgE"
+*** You are running in headless mode.
+Gtk-Message: 22:49:44.257: Failed to load module "appmenu-gtk-module"
+1619146188366	Marionette	INFO	Listening on port 43609
+1619146188377	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619146198973	geckodriver	INFO	Listening on 127.0.0.1:48035
+1619146199977	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXCJGAP"
+*** You are running in headless mode.
+Gtk-Message: 22:50:00.020: Failed to load module "appmenu-gtk-module"
+1619146203873	Marionette	INFO	Listening on port 44081
+1619146203922	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619146227779	geckodriver	INFO	Listening on 127.0.0.1:60199
+1619146228783	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexnuLMy"
+*** You are running in headless mode.
+Gtk-Message: 22:50:28.902: Failed to load module "appmenu-gtk-module"
+1619146236891	Marionette	INFO	Listening on port 44033
+1619146236997	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619146307672	geckodriver	INFO	Listening on 127.0.0.1:40655
+1619146308679	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4oNzv2"
+*** You are running in headless mode.
+Gtk-Message: 22:51:48.882: Failed to load module "appmenu-gtk-module"
+Exiting due to channel error.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Channel error: cannot send/recv
+
+1619220023187	geckodriver	INFO	Listening on 127.0.0.1:56059
+1619220024185	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXF5ouX"
+*** You are running in headless mode.
+Gtk-Message: 19:20:24.273: Failed to load module "appmenu-gtk-module"
+1619220026404	Marionette	INFO	Listening on port 36131
+1619220026503	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619220091558	geckodriver	INFO	Listening on 127.0.0.1:32971
+1619220091560	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilec0KH77"
+*** You are running in headless mode.
+Gtk-Message: 19:21:31.572: Failed to load module "appmenu-gtk-module"
+1619220093059	Marionette	INFO	Listening on port 43803
+1619220093083	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

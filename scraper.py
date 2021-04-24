@@ -15,7 +15,7 @@ def main():
     #print(s.getCounters('ezreal'))
     #s.runes('ezreal')
     #s.populateRunes()
-    print(s.getRunes("ezreal"))
+    #s.build("ezreal")
 
 class Scraper:
     def __init__(self):
@@ -91,6 +91,22 @@ class Scraper:
 
         return runes
 
+    def build(self, champ):
+        champ = champ.replace(" ", "").replace("'", "").replace(".", "")
+        url = "https://leagueofgraphs.com/champions/builds" + f'/{champ.lower()}'
+        print(url)
+
+        self.driver.get(url)
+
+        response = self.driver.find_elements_by_xpath("//img[@class='requireTooltip item']")
+
+        #instances = soup.find_all('li', style=lambda value: value and 'color: #00cfbc')
+        #more = instances.find_all()
+
+        #print(response[0].get_attribute("innerHTML"))
+
+
+
 
     def populateCounters(self):
         self.initialize()
@@ -113,7 +129,7 @@ class Scraper:
 
 
         self.driver.quit()
-        counterfile = open('counterfile', 'w')
+        counterfile = open('docs/counterfile', 'w')
         json1 = json.dumps(self.counter_dict)
         counterfile.write(json1)
         counterfile.close()
@@ -137,7 +153,7 @@ class Scraper:
 
 
         self.driver.quit()
-        runefile = open('runefile', 'w')
+        runefile = open('docs/runefile', 'w')
         json1 = json.dumps(self.runes_dict)
         runefile.write(json1)
         runefile.close()
@@ -146,7 +162,7 @@ class Scraper:
     def getCounters(self, champ):
         champ = champ.lower()
         champ = champ.capitalize()
-        infile = open('counterfile', 'r')
+        infile = open('docs/counterfile', 'r')
         x = infile.read()
 
         full_dict = json.loads(x)
@@ -156,7 +172,7 @@ class Scraper:
     def getRunes(self, champ):
         champ = champ.lower()
         champ = champ.capitalize()
-        infile = open('runefile', 'r')
+        infile = open('docs/runefile', 'r')
         x = infile.read()
 
         full_dict = json.loads(x)
@@ -166,7 +182,7 @@ class Scraper:
     def test(self):
         dict1 = {}
 
-        runefile = open('runefile', 'w')
+        runefile = open('docs/runefile', 'w')
         json1 = json.dumps(dict1)
         runefile.write(json1)
         runefile.close()
@@ -179,4 +195,4 @@ class Scraper:
         return rune
 
 
-main()
+#main()
