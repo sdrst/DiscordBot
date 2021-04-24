@@ -4,6 +4,7 @@ import time
 import math
 import json
 from selenium import webdriver
+import pandas as pd
 
 from selenium.webdriver.firefox.options import Options
 
@@ -166,8 +167,9 @@ class Scraper:
         x = infile.read()
 
         full_dict = json.loads(x)
+        df = pd.DataFrame.from_dict(full_dict)
 
-        return full_dict[champ]
+        return df[champ]
 
     def getRunes(self, champ):
         champ = champ.lower()
@@ -176,8 +178,9 @@ class Scraper:
         x = infile.read()
 
         full_dict = json.loads(x)
+        df = pd.DataFrame.from_dict(full_dict)
 
-        return full_dict[champ]
+        return df[champ]
 
     def test(self):
         dict1 = {}
