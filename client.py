@@ -61,7 +61,7 @@ async def runes(ctx, name):
 
 @bot.command(name='build')
 async def builds(ctx, name):
-    await ctx.send("The build for {} is:\n{}")
+    await ctx.send("The build for {} is:\n{}".format(name, scraper.getBuild(name)))
 
 @bot.command(name='populate')
 @commands.is_owner()

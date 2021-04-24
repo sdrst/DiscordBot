@@ -15,7 +15,7 @@ def main():
     #print(s.getCounters('ezreal'))
     #s.runes('ezreal')
     #s.populateRunes()
-    print(s.getRunes("ezreal"))
+    #s.build("ezreal")
 
 class Scraper:
     def __init__(self):
@@ -90,6 +90,22 @@ class Scraper:
             j+=1
 
         return runes
+
+    def build(self, champ):
+        champ = champ.replace(" ", "").replace("'", "").replace(".", "")
+        url = "https://leagueofgraphs.com/champions/builds" + f'/{champ.lower()}'
+        print(url)
+
+        self.driver.get(url)
+
+        response = self.driver.find_elements_by_xpath("//img[@class='requireTooltip item']")
+
+        #instances = soup.find_all('li', style=lambda value: value and 'color: #00cfbc')
+        #more = instances.find_all()
+
+        #print(response[0].get_attribute("innerHTML"))
+
+
 
 
     def populateCounters(self):
@@ -179,4 +195,4 @@ class Scraper:
         return rune
 
 
-main()
+#main()
