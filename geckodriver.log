@@ -6601,3 +6601,5 @@ Gtk-Message: 19:21:31.572: Failed to load module "appmenu-gtk-module"
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1619230034022	geckodriver	INFO	Listening on 127.0.0.1:63113
+1619230184844	geckodriver	INFO	Listening on 127.0.0.1:65236

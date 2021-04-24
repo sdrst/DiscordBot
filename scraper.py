@@ -17,6 +17,7 @@ def main():
     #s.runes('ezreal')
     #s.populateRunes()
     #s.build("ezreal")
+    print(s.getRunes('Diana'))
 
 class Scraper:
     def __init__(self):
@@ -27,7 +28,7 @@ class Scraper:
         self.options = Options()
         self.options.headless = True
 
-        self.driver = webdriver.Firefox(options=self.options)
+        #self.driver = webdriver.Firefox(options=self.options)
 
     def initialize(self):
         self.driver.get(self.home_url)
@@ -169,7 +170,7 @@ class Scraper:
         full_dict = json.loads(x)
         df = pd.DataFrame.from_dict(full_dict)
 
-        return df[champ]
+        return df[champ].to_string(index=False)
 
     def getRunes(self, champ):
         champ = champ.lower()
@@ -180,7 +181,7 @@ class Scraper:
         full_dict = json.loads(x)
         df = pd.DataFrame.from_dict(full_dict)
 
-        return df[champ]
+        return df[champ].to_string(index=False)
 
     def test(self):
         dict1 = {}
@@ -198,4 +199,4 @@ class Scraper:
         return rune
 
 
-#main()
+main()
