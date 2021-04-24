@@ -2,6 +2,7 @@ import os
 import discord
 from discord.ext import commands
 from src.scraper import Scraper
+from src.boy import Boy
 from datetime import date
 from dotenv import load_dotenv
 
@@ -75,6 +76,27 @@ async def populate(ctx):
 
 @bot.command(name='botd')
 async def boy_of_the_day(ctx):
+    server = bot.guilds[0]
+    members = [name.name for name in server.members]
+
+    if botd.isSelected():
+        boy = botd.getBoy()
+        await ctx.send(f'The boy of the day has already been selected ({boy}), try again tomorrow for your chance at being the boy of the day!')
+        with open('img/dog.png', 'rb') as fh:
+            f = discord.File(fh, filename='img/dog.png')
+        await ctx.send(file=f)
+
+    else:
+        boy = botd.botd(members)
+
+        for name in server.members:
+            if name.name == boy:
+                pfp = name.avatar_url
+                embed = discord.Embed(title="Boy Of The Day!", description='Congratulations {}, you are the  boy of the day!'.format(name.mention), color=0xecce8b)
+                embed.set_image(url=(pfp))
+                await ctx.send(embed=embed)
+
+
 
 
 

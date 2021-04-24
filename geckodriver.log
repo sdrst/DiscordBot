@@ -6622,3 +6622,69 @@ Gtk-Message: 21:19:17.144: Failed to load module "appmenu-gtk-module"
 Gtk-Message: 21:19:37.428: Failed to load module "appmenu-gtk-module"
 1619227179280	Marionette	INFO	Listening on port 40661
 1619227179400	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619303834200	geckodriver	INFO	Listening on 127.0.0.1:44961
+1619303835206	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNJmEJa"
+*** You are running in headless mode.
+Gtk-Message: 18:37:15.285: Failed to load module "appmenu-gtk-module"
+1619303837404	Marionette	INFO	Listening on port 39141
+1619303837418	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619303893325	geckodriver	INFO	Listening on 127.0.0.1:46889
+1619303893328	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYMKOQd"
+*** You are running in headless mode.
+Gtk-Message: 18:38:13.341: Failed to load module "appmenu-gtk-module"
+1619303895070	Marionette	INFO	Listening on port 41577
+1619303895140	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1619304561385	geckodriver	INFO	Listening on 127.0.0.1:37425
+1619304561387	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevdeGXr"
+*** You are running in headless mode.
+Gtk-Message: 18:49:21.400: Failed to load module "appmenu-gtk-module"
+1619304563056	Marionette	INFO	Listening on port 42707
+1619304563098	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1619304756366	geckodriver	INFO	Listening on 127.0.0.1:51765
+1619304756368	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCrUz6I"
+*** You are running in headless mode.
+Gtk-Message: 18:52:36.381: Failed to load module "appmenu-gtk-module"
+1619304757941	Marionette	INFO	Listening on port 39891
+1619304757978	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1619305621229	geckodriver	INFO	Listening on 127.0.0.1:43175
+1619305621231	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJ8viIH"
+*** You are running in headless mode.
+Gtk-Message: 19:07:01.244: Failed to load module "appmenu-gtk-module"
+1619305622747	Marionette	INFO	Listening on port 34333
+1619305622849	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1619306695079	geckodriver	INFO	Listening on 127.0.0.1:59353
+1619306695082	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7ZhEYJ"
+*** You are running in headless mode.
+Gtk-Message: 19:24:55.094: Failed to load module "appmenu-gtk-module"
+1619306696701	Marionette	INFO	Listening on port 38617
+1619306696790	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1619306948095	geckodriver	INFO	Listening on 127.0.0.1:56821
+1619306948097	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCLFr0j"
+*** You are running in headless mode.
+Gtk-Message: 19:29:08.111: Failed to load module "appmenu-gtk-module"
+1619306949765	Marionette	INFO	Listening on port 43357
+1619306949807	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1619307271420	geckodriver	INFO	Listening on 127.0.0.1:45713
+1619307271422	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQpUCju"
+*** You are running in headless mode.
+Gtk-Message: 19:34:31.435: Failed to load module "appmenu-gtk-module"
+1619307272980	Marionette	INFO	Listening on port 39265
+1619307273044	Marionette	WARN	TLS certificate errors will be ignored for this session
