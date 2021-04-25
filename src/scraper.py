@@ -2,9 +2,9 @@ import requests
 import time
 import math
 import json
-from selenium import webdriver
+#from selenium import webdriver
 
-from selenium.webdriver.firefox.options import Options
+#from selenium.webdriver.firefox.options import Options
 
 def main():
     s = Scraper()
@@ -22,14 +22,14 @@ class Scraper:
         self.runes_dict = {}
         self.champions = []
         self.home_url = "https://u.gg/lol/champions"
-        self.options = Options()
-        self.options.headless = True
+        #self.options = Options()
+        #self.options.headless = True
 
-        self.driver = webdriver.Firefox(options=self.options)
+        #self.driver = webdriver.Firefox(options=self.options)
 
     def initialize(self):
-        self.driver.get(self.home_url)
-        results = self.driver.find_elements_by_xpath("//*[@class='champions-container']")
+        #self.driver.get(self.home_url)
+        #results = self.driver.find_elements_by_xpath("//*[@class='champions-container']")
 
         self.champions = results[0].text.split('\n')
 
@@ -44,12 +44,12 @@ class Scraper:
 
         champ_counters = []
         tmp = []
-        self.driver.get(url)
+        #self.driver.get(url)
         #driver.execute_script("window.scrollTo(0, document.body.scrollHeight);var lenOfPage=document.body.scrollHeight;return lenOfPage;")
 
         #time.sleep(5)
 
-        results = self.driver.find_elements_by_xpath("//*[@class='counters-list best-win-rate']")
+        #results = self.driver.find_elements_by_xpath("//*[@class='counters-list best-win-rate']")
         #print(results[0].text)
         if results == None:
             return
@@ -64,14 +64,14 @@ class Scraper:
         champ = champ.replace(" ", "").replace("'", "").replace(".", "")
         url = self.home_url + f'/{champ.lower()}/build'
 
-        self.driver.get(url)
+        #self.driver.get(url)
 
-        keystone_obj = self.driver.find_elements_by_xpath("//*[@class='perk keystone perk-active']")
+        #keystone_obj = self.driver.find_elements_by_xpath("//*[@class='perk keystone perk-active']")
 
         keystone = self.cleanRunes(keystone_obj[0], "Keystone ")
         runes.append(keystone)
 
-        runes_obj = self.driver.find_elements_by_xpath("//*[@class='perk perk-active']")
+        #runes_obj = self.driver.find_elements_by_xpath("//*[@class='perk perk-active']")
 
         i = 0
         while i < 5:
@@ -80,7 +80,7 @@ class Scraper:
             runes.append(rune)
             i+=1
 
-        shards_obj = self.driver.find_elements_by_xpath("//*[@class='shard shard-active']")
+        #shards_obj = self.driver.find_elements_by_xpath("//*[@class='shard shard-active']")
 
         j = 0
         while j < 3:
@@ -95,9 +95,9 @@ class Scraper:
         url = "https://leagueofgraphs.com/champions/builds" + f'/{champ.lower()}'
         print(url)
 
-        self.driver.get(url)
+        #self.driver.get(url)
 
-        response = self.driver.find_elements_by_xpath("//img[@class='requireTooltip item']")
+        #response = self.driver.find_elements_by_xpath("//img[@class='requireTooltip item']")
 
         #instances = soup.find_all('li', style=lambda value: value and 'color: #00cfbc')
         #more = instances.find_all()
@@ -127,7 +127,7 @@ class Scraper:
 
 
 
-        self.driver.quit()
+        #self.driver.quit()
         counterfile = open('docs/counterfile', 'w')
         json1 = json.dumps(self.counter_dict)
         counterfile.write(json1)
@@ -151,7 +151,7 @@ class Scraper:
         print("Runes populated")
 
 
-        self.driver.quit()
+        #self.driver.quit()
         runefile = open('docs/runefile', 'w')
         json1 = json.dumps(self.runes_dict)
         runefile.write(json1)
