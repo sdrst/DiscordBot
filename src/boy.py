@@ -1,4 +1,5 @@
 import random
+from datetime import date
 
 def main():
     b = Boy()
@@ -12,14 +13,17 @@ class Boy:
     def __init__(self):
         self.selected = False
         self.boy_of_the_day = None
+        self.filled_date = None
 
-    def isSelected(self):
-        return self.selected
+    def isSelected(self, curr_date):
+        return (self.filled_date != curr_date and self.selected)
 
     def getBoy(self):
         return self.boy_of_the_day
 
     def botd(self, members):
+        self.filled_date = date.today()
+        print(self.filled_date)
         self.selected = True
         bots = ['MEE6', 'Simple Poll', 'LolCounters']
 
