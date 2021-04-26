@@ -76,10 +76,11 @@ async def populate(ctx):
 
 @bot.command(name='botd')
 async def boy_of_the_day(ctx):
+    curr_date = date.today()
     server = bot.guilds[0]
     members = [name.name for name in server.members]
 
-    if botd.isSelected():
+    if botd.isSelected(curr_date):
         boy = botd.getBoy()
         await ctx.send(f'The boy of the day has already been selected ({boy}), try again tomorrow for your chance at being the boy of the day!')
         with open('img/dog.png', 'rb') as fh:
