@@ -49,8 +49,8 @@ async def on_member_join(member):
     #channel = discord.utils.get(member.guild.text_channels, name="welcome")
     print(f'Hi {member}')
     await member.create_dm()
-    await member.dm_channel.send("Welcome to the zone {}".format(member))
-    #await channel.send("Welcome to the fuck zone {}".format(member))
+    await member.dm_channel.send("Welcome to the danger zone {}".format(member))
+    
 
 
 @bot.command(name='counters')
