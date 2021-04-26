@@ -16,7 +16,7 @@ class Boy:
         self.filled_date = None
 
     def isSelected(self, curr_date):
-        return (self.filled_date != curr_date and self.selected)
+        return (self.filled_date == curr_date and self.selected)
 
     def getBoy(self):
         return self.boy_of_the_day
