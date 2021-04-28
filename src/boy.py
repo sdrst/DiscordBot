@@ -1,5 +1,6 @@
 import random
 from datetime import date
+import time
 
 def main():
     b = Boy()
@@ -26,6 +27,8 @@ class Boy:
         print(self.filled_date)
         self.selected = True
         bots = ['MEE6', 'Simple Poll', 'LolCounters']
+
+        random.seed(time.clock())
 
         boy = random.randint(0, len(members))
 
